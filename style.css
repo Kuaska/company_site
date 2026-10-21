@@ -226,8 +226,13 @@ h3 {
     font-size: 14px;
 }
 
-/* В ПРАКТИЧЕСКОЙ №9 студент B должен добавить оформление для нового блока #contacts.
-   Не вставляйте готовое решение сюда до начала работы. */
+.contacts {
+        display: inline-block;
+    margin-bottom: 18px;
+    color: var(--accent);
+    font-weight: 700;
+    
+}
 
 @media (max-width: 760px) {
     .header-inner,
